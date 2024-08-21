@@ -26,6 +26,7 @@ plugins:
 - jekyll-remote-theme
 # change encoding for the generated output files to utf-8
 encoding: utf-8
+exclude: doc
 remote_theme: dalimeeting/jekyll-theme
 style: dali
 
@@ -37,7 +38,7 @@ ghub:
 future: true
 
 # Place a banner image in assets/images and give its name here.
-banner: resort.png 
+banner: sorrento.png 
 
 conference:
   draft: true
