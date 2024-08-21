@@ -1,10 +1,10 @@
 # Site settings
-title: DALI 20XX
+title: DALI 2025
 subtitle: Data, Learning and Inference
 permalink: "/:title.html"
 description: > # this means to ignore newlines until "baseurl:"
-  This is the website of the DALI 20XX conference.
-baseurl: "/dali20XX" # the subpath of your site, e.g. /blog/
+  This is the website of the DALI 2025 conference.
+baseurl: "/dali2025" # the subpath of your site, e.g. /blog/
 
 # If you want to create a twitter account for your conference include
 # twitter name here
@@ -14,7 +14,7 @@ github_username:  dalimeeting
 
 author:
   name: DALI
-  # You might want to create an email for handling conference queries, e.g. aistats20XX@gmail.com. If you do, you can enter it here.
+  # You might want to create an email for handling conference queries, e.g. dali2025@gmail.com. If you do, you can enter it here.
   email: 
 comments: false
 
@@ -31,7 +31,7 @@ style: dali
 
 ghub:
   edit: true
-  repository: dali20XX
+  repository: dali2025
 
 # Also generate pages with dates in the future
 future: true
@@ -58,24 +58,26 @@ conference:
   # Give details of the room in the venue here.  
   room:
   # Set the name of the venue (e.g. Caribe Hilton Hotel)  
-  venue:
+  venue: Grand Hotel Vesuvio
   # Give the url of the venue here.  
-  venue_url:
+  venue_url: https://www.vesuviosorrento.com/
   # Give the conference location in the form City, Country here.
-  location: 
-  year: 20XX
+  location: Sorrento, Italy
+  year: 2025
   # Give the instance of the conference here (e.g. 24th)
-  instance:
+  instance: 7th
   # Styling for DALI is "Workshop on"  
   styling: Workshop on
   # Give the individual days that the conference will be held on here.
   dates:
-  - 20XX
-  -
+  - 2025-04-13
+  - 2025-04-14
+  - 2025-04-15
+  - 2025-04-16
   # Give the submission site details here.
   submission:
     # Whether to show the submission site.
-    show: 
+    show: false
     # The URL of the submission site.
     url: 
     # The name of the submission site (e.g. Microsoft CMT Website)
@@ -87,13 +89,13 @@ conference:
       date: 
     - name: Paper submission deadline
       type: submission
-      time: 
+      time: 2024-10-11
     - name: Author response period starts
       date: 
     - name: Author response period ends
       time:
     - name: Paper decision notifications
-      date: 
+      date: 2024-10-18
       type: decision
     - name: Deadline for camera-ready papers
       time: 
@@ -103,11 +105,11 @@ conference:
   chairs:
   - type: Program Chairs
     people:
-    - family: 
-      given:
+    - family: Lawrence
+      given: Neil
       # Give their personal web page.  
-      url: 
-      institute: 
+      url: https://inverseprobability.com
+      institute: University of Cambridge
     - family: 
       given: 
       url: 
