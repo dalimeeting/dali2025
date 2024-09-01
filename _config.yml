@@ -1,9 +1,9 @@
 # Site settings
-title: DALI 2025
+title: DALI Sorrento 2025
 subtitle: Data, Learning and Inference
 permalink: "/:title.html"
 description: > # this means to ignore newlines until "baseurl:"
-  This is the website of the DALI 2025 conference.
+  This is the website of the DALI Sorrento 2025 conference.
 baseurl: "/dali2025" # the subpath of your site, e.g. /blog/
 
 # If you want to create a twitter account for your conference include
@@ -111,17 +111,6 @@ conference:
       # Give their personal web page.  
       url: https://inverseprobability.com
       institute: University of Cambridge
-    - family: 
-      given: 
-      url: 
-      institute:
-  # If there's a local chair, or a general chair, you can add them here.
-  - type: Local Chair
-    people:
-    - family: 
-      given: 
-      url: 
-      institute:
   # You might want Workflow Chair(s) to assist with your submission system and the review process.     
   - type: Workflow Chairs
     people:
@@ -129,41 +118,28 @@ conference:
       given: 
       url: 
       institute:
-  # Your Publication Chair handles processing of proceedings.      
-  - type: Publication Chair
+  - type: Support
     people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  # Publicity Chairs often handle websites, social media etc.      
-  - type: Publicity Chair
+    - given: Hanni
+      family: Sondermann
+      institute: University of Cambridge
+  - type: Steering Committee
     people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  # D&I Chairs look after initiatives to ensure an inclusive conference      
-  - type: D&I Chair
-    people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  # Sponsorship chairs handle bringing in money from sponsors.      
-  - type: Sponsorship Chair
-    people:
-    - family: 
-      given: 
-      url: 
-      institute: 
-  sponsors:
-  # Sponsor name here
-  - name:
-  # Sponsor URL here
-    url: 
-  # Sponsor name here
-  - name: 
-  # Sponsor URL here
-    url: 
- 
+    - given: Zoubin
+      family: Ghaharamani
+      url: "http://mlg.eng.cam.ac.uk/zoubin/"
+      institute: University of Cambridge
+    - given: Thomas
+      family: Hofmann
+      url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+      institute: ETH Zurich
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Cambridge
+    - given: Bernhard
+      family: Schölkopf
+      positon: Chair
+      url: "http://ei.is.tuebingen.mpg.de/person/bs"
+      institute: MPI Tübingen
+
