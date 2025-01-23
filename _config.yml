@@ -4,7 +4,7 @@ subtitle: Data, Learning and Inference
 permalink: "/:title.html"
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the DALI Sorrento 2025 conference.
-baseurl: "/dali2025" # the subpath of your site, e.g. /blog/
+baseurl: "/sorrento2025" # the subpath of your site, e.g. /blog/
 
 # If you want to create a twitter account for your conference include
 # twitter name here
@@ -60,7 +60,7 @@ conference:
   room:
   # Set the name of the venue (e.g. Caribe Hilton Hotel)  
   venue: Grand Hotel Vesuvio
-  # Give the url of the venue here.  
+  # Give the url of the venue here.
   venue_url: https://www.vesuviosorrento.com/
   # Give the conference location in the form City, Country here.
   location: Sorrento, Italy
@@ -102,31 +102,30 @@ conference:
       time: 
     - name: Registration deadline
       date:
-  # List program chairs here.      
+  # List program chairs here.
   chairs:
-  - type: Program Chairs
+  - type: General Chairs
     people:
     - family: Lawrence
       given: Neil
       # Give their personal web page.  
       url: https://inverseprobability.com
       institute: University of Cambridge
-  # You might want Workflow Chair(s) to assist with your submission system and the review process.     
-  - type: Workflow Chairs
-    people:
-    - family: 
-      given: 
-      url: 
-      institute:
-  - type: Support
-    people:
-    - given: Hanni
-      family: Sondermann
+    - family: Sondermann
+      given: Hanni
+      institute: University of Cambridge
+    - family: Paleyes
+      given: Andrei
+      url: https://paleyes.info/
+      institute: University of Cambridge
+    - family: Cabrera-Jojoa
+      given: Christian
+      url: https://cabrerac.github.io/
       institute: University of Cambridge
   - type: Steering Committee
     people:
     - given: Zoubin
-      family: Ghaharamani
+      family: Ghahramani
       url: "http://mlg.eng.cam.ac.uk/zoubin/"
       institute: University of Cambridge
     - given: Thomas
